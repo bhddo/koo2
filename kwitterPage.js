@@ -41,7 +41,7 @@ messageWithTag = "<h4 class='message_h4'>" + message + "</h4>";
 like_button = "<button class='btn btn-warning' id="+firebaseMessageId+" value="+like+" onclick='updateLike(this.id)'>";
 spanWithTag = "<span class-'glyphicon glyphicon-thumbs-up'>like: "+ like +"</span></button><hr>";
 
-row = nameWithTag + messageWithTag = like_button + spanWithTag;
+row = nameWithTag + messageWithTag  like_button + spanWithTag;
 document.getElementById("output").innerHTML += row;
 //Fim do código
  } });  }); }
